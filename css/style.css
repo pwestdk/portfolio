@@ -1,0 +1,132 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
+  
+/* Global */
+  .container{
+    width:70%;
+    margin:auto;
+    overflow:hidden;
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+  }
+
+  .hero{
+    margin:auto;
+    overflow:hidden;
+  }
+
+  .img {
+    box-shadow: 2.5px 2.5px #88888844;
+    padding:1.5px;
+    border:1.5px solid #ffffff;
+    background-color:#ffffff;
+  }
+
+/* Header **/
+header{
+    /*background:#35424a;*/
+    color:#000000;
+    padding-top:25px;
+    min-height:75px;
+    /*border-bottom:#e8491d 2px solid;*/
+  }
+  
+  header a{
+    color:#0000008f;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-size:16px;
+  }
+  
+  header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+  
+  header .highlight, header .current a{
+    color:#2196f3;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    color:#2195f398;
+    /*font-weight:bold;*/
+  }
+
+/* Hero */
+#hero {
+    margin-left: 15%;
+    margin-right: 15%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background:#2196f3;
+    max-height: 250px;
+    color:#ffffff;
+  }
+  
+#hero h1 {
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#hero h2{ 
+    font-size:25px;
+}
+
+#heroImage{
+    float:left;
+    width:30%;
+  }
+
+  #heroText{
+    float:left;
+    text-align: center;
+    padding-left: 150px;
+  }
+
+  /* Boxes */
+#boxes{
+    margin-top:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background:#2196f3;
+    max-height: 250px;
+    color:#ffffff;
+  }
+  
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:50%;
+  }
+  
+  #boxes .box img{
+    width:90px;
+  }
